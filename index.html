@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>ShopMate</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="Images//apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Images//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Images//favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+<body>
+    <!-- Login Modal Overlay -->
+    <div id="login-overlay">
+        <div id="login-form">
+            <h2>Login Details</h2>
+            <form id="userLoginForm">
+                <label for="username">Provide Us a Username:</label>
+                <input type="text" id="username" name="username" required autocomplete="off">
+                <button id="login-btn">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="content">
+        <div class="container">
+            <img src="Images/logo.png" alt="logo">
+            <img src="Images/cart.jpg" alt="cart" id="cart-img">
+            <input type="text" name="" id="input-field" placeholder="Bread">
+            <button id="add-btn">Add to Cart</button>
+            <ul id="shopping-list"></ul>
+        </div>
+    </div>
+    <script src="script.js" type="module"></script>
+</body>
+
+</html>
